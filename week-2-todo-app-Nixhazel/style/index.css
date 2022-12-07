@@ -1,0 +1,211 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background: #3C4048;
+}
+header{
+  text-align: center;
+}
+h1{
+  margin: 30px auto;
+  color: #EAEAEA;
+}
+
+span{
+    cursor: pointer;
+}
+.todoTextForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+
+}
+.searchtext{
+  height: 45px;
+  padding: 8px;
+  width: 300px;
+  border-radius: 15px;
+  background-color: #EAEAEA;
+}
+h1{
+  font-size: 50px;
+}
+
+hr{
+  margin: 30px auto;
+  width: 1200px;
+}
+.todoinputtext{
+  width: 1045px;
+  height: 40px;
+  border-radius: 10px 0 0 10px;
+  border: 1.8px solid;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #EAEAEA;
+}
+.todosubmit{
+  width: 100px;
+  height: 43.5px;
+  border-radius: 0 10px 10px 0;
+  border: 1.8px solid;
+  padding: 10px;
+  background-color: #EAEAEA;
+}
+
+#todolist{
+  width: 1200px;
+  margin: auto;
+}
+.listitem{
+  padding: 10px;
+  margin: 20px auto;
+  height: 150px;
+  border: 1.8px solid;
+  width: 1150px;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  border-radius: 17px;
+  background: #B2B2B2;
+}
+.todoPtext{
+  display: block;
+  padding: 15px 10px;
+  word-wrap: break-word;
+  width: 900px;
+  font-size: 20px;
+  font-weight: bold;
+  background: #B2B2B2;
+}
+.inputvalue{
+  width: 50%;
+  border: 0px;
+  padding: 5px;
+  font-size: 1.5rem;
+  background: #B2B2B2;
+}
+.date{
+  display: inline-block;
+}
+.deletebtn{
+  font-size: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+.deleteEdit{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  font-size: 18px;
+  background: #B2B2B2;
+  height: 45px;
+}
+.dandE{
+  display: flex;
+  gap: 30px;
+  width: 150px;
+}
+.date, .edit, .deleteI, .dandE{
+  background: #B2B2B2;
+}
+@media only screen and (max-width: 1050px) {
+  hr{
+  margin: 30px auto;
+  width: 800px;
+}
+    #todolist{
+      width: 900px;
+    }
+    .todoinputtext{
+      width: 700px;
+      background-color: #EAEAEA;
+    }
+    .todoTextForm{
+      width: 800px;
+      margin: 25px auto;
+      height: 60px;
+    }
+    .listitem{
+      width: 900px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .deleteEdit{
+      width: 870px;
+    }
+    .todoPtext{
+      width: 500px;
+    }
+  
+}
+
+@media only screen and (max-width: 850px) {
+    hr{
+      margin: 30px auto;
+      width: 800px;
+    }
+    #todolist{
+      margin: 0;
+      width: 820px
+    }
+    .todoTextForm{
+      width: 700px;
+      margin: 25px auto;
+      height: 60px;
+    }
+    .listitem{
+      width: 790px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .todoPtext{
+      width: 500px;
+    }
+    .deleteEdit {
+    width: 750px;
+    }
+  
+}
+@media only screen and (max-width: 450px) {
+    hr{
+      margin: 15px auto;
+      width: 250px;
+    }
+    #todolist{
+    
+      width: 400px
+    }
+    .searchtext{
+      height: 40px;
+    }
+    .todoinputtext{
+      width: 200px;
+      height: 20px;
+      background-color: #EAEAEA;
+    }
+    .todoTextForm{
+      width: 300px;
+      margin: 30px auto;
+      height: 30px;
+    }
+    .deleteEdit {
+    width: 400px;
+    }
+    .listitem{
+      width: 380px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .todoPtext{
+      width: 350px;
+      padding: 15px 0;
+    }
+}
