@@ -1,3 +1,4 @@
 # TODO-List-App
-Create, Edit, Delete and Search 
-LIVE PROJECT https://olokor-todo-app.netlify.app/
+You can Create, Edit, Delete and Search Todo Items
+
+LIVE PROJECT: https://olokor-todo-app.netlify.app/
